@@ -1,4 +1,6 @@
-import { Button, HStack } from '@chakra-ui/react';
+import { Button } from '@/components/ui/button';
+import { HStack } from '@chakra-ui/react';
+import { DialogTest } from './dialog-test';
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
         <Button>Click me</Button>
         <Button>Click me</Button>
       </HStack>
+
+      <DialogTest />
     </div>
   );
 }
